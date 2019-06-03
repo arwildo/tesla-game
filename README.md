@@ -1,5 +1,5 @@
 # Tesla_Game
-##### The idea is Tesla Car Game with Machine Learning Autopilot.  
+##### The Tesla Car Game with Machine Learning Autopilot.  
 I'm still working on the ML code for this game. I code it using python and pygame library. To run it you need to download all the files and run it in the same directory.
 
 
