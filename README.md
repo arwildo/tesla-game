@@ -8,3 +8,11 @@ I'm still working on the ML code for this game. I code it using python and pygam
 
 ## Game Images Preview
 ![alt text](https://raw.githubusercontent.com/arwildo/Tesla_Game/master/Preview_Images/Game%20Images%20Preview.png "Game Images")
+
+## Built With
+
+* Pygame
+
+## Contributors
+
+* **Arwildo** - *Initial work* - [arwildo.space](http://www.arwildo.space/)
