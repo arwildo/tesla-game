@@ -13,6 +13,8 @@ I'm still working on the ML code for this game. I code it using python and pygam
 
 * Pygame
 
-## Contributors
+## Support
 
-* **Arwildo** - *Initial work* - [arwildo.space](http://www.arwildo.space/)
+If you like what you see, feel free to buy me a coffee.
+
+<a href="https://www.buymeacoffee.com/Arwildo " target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
