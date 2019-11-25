@@ -1,6 +1,7 @@
 #!/bin/python3
 import pygame
 import random
+
 pygame.init()
 
 win_wid = 600
@@ -10,7 +11,8 @@ win = pygame.display.set_mode((win_wid, win_hei))
 pygame.display.set_caption('Tesla Car Game', 'Tesla AI Car Game automatic detect road')
 clock = pygame.time.Clock()
 
-#images
+
+# images
 Tesla_image = pygame.image.load('Tesla1.png')
 BackGround_image = pygame.image.load('Back_Ground.png')
 road_lines_image = pygame.image.load('road_lines_image.png')
@@ -66,6 +68,7 @@ class gas_car (object):
     def hit(self):
         print('Hit!')
 
+
 class gas_car2 (object):
     def __init__(self, x, y, wid, hei, end ):
         self.x = x
@@ -92,6 +95,7 @@ class gas_car2 (object):
 
     def hit(self):
         print('Hit!')
+
 
 class gas_car3 (object):
     def __init__(self, x, y, wid, hei, end ):
@@ -120,6 +124,7 @@ class gas_car3 (object):
     def hit(self):
         print('Hit!')
 
+
 class gas_car4 (object):
     def __init__(self, x, y, wid, hei, end ):
         self.x = x
@@ -146,6 +151,7 @@ class gas_car4 (object):
     def hit(self):
         print('Hit!')
 
+
 class road_lines (object):
     def __init__(self, x, y, wid, hei, end ):
         self.x = x
@@ -168,7 +174,7 @@ class road_lines (object):
                 self.y = -300
 
 
-#draw function
+# draw function
 def DrawInGame():
     win.blit(BackGround_image, (0, 0))
     road.draw(win)
@@ -185,22 +191,24 @@ def DrawInGame():
 
 
 
-#mainloop For Tesla
+# mainloop
 tesla = tesla_car(win_wid*0.45, 450, 64, 64)
-road = road_lines(win_wid*0.45, win_hei*1, 10, 30, 600)
-road2 = road_lines(win_wid*0.45, win_hei*0.5, 10, 30, 600)
-road3 = road_lines(win_wid*0.45, win_hei*0.01, 10, 30, 600)
-road4 = road_lines(win_wid*0.45, win_hei*0.005, 10, 30, 600)
 gas = gas_car (random.randint(55, 475), -300, 64, 64, 600)
 gas2 = gas_car2(random.randint(100, 475), -600, 64, 64, 600)
 gas3 = gas_car3(random.randint(55, 200), -800, 64, 64, 600)
 gas4 = gas_car4(random.randint(300, 475), -1000, 64, 64, 600)
-run = True
-while run:
+
+road = road_lines(win_wid*0.45, win_hei*1, 10, 30, 600)
+road2 = road_lines(win_wid*0.45, win_hei*0.5, 10, 30, 600)
+road3 = road_lines(win_wid*0.45, win_hei*0.01, 10, 30, 600)
+road4 = road_lines(win_wid*0.45, win_hei*0.005, 10, 30, 600)
+
+running = True
+while running:
     clock.tick(50)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            run = False
+            running = False
     if gas.y > 500:
         gas = gas_car (random.randint(55, 475), random.randint(-500, -300 ), 64, 64, 600)
     gas.move()
