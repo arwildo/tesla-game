@@ -2,7 +2,7 @@
 The Tesla Car Game with Machine Learning Autopilot.  
 
 ## Preview
-![alt text](https://raw.githubusercontent.com/arwildo/Tesla_Game/master/Preview_Images/Game%20Preview.png "Tesla Car Game")
+![alt text](https://raw.githubusercontent.com/arwildo/tesla-game/master/img/game-preview.png "Tesla Car Game")
 
 ## Built With
 

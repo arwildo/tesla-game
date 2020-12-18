@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 import pygame
 import random
 
@@ -13,13 +13,13 @@ pygame.display.set_caption('Tesla Car Game',
 clock = pygame.time.Clock()
 
 # images
-Tesla_image = pygame.image.load('Tesla1.png')
-BackGround_image = pygame.image.load('Back_Ground.png')
-road_lines_image = pygame.image.load('road_lines_image.png')
-Gas_car_image = pygame.image.load('Gas_car.png')
-Gas_car_image2 = pygame.image.load('Gas_car2.png')
-Gas_car_image3 = pygame.image.load('Gas_car3.png')
-Gas_car_image4 = pygame.image.load('Gas_car4.png')
+Tesla_image = pygame.image.load('img/Tesla1.png')
+BackGround_image = pygame.image.load('img/Back_Ground.png')
+road_lines_image = pygame.image.load('img/road_lines_image.png')
+Gas_car_image = pygame.image.load('img/Gas_car.png')
+Gas_car_image2 = pygame.image.load('img/Gas_car2.png')
+Gas_car_image3 = pygame.image.load('img/Gas_car3.png')
+Gas_car_image4 = pygame.image.load('img/Gas_car4.png')
 
 
 class tesla_car(object):
