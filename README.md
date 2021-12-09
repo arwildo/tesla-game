@@ -1,5 +1,5 @@
 # Tesla Game
-A simple 2D tesla car game.  
+Simple 2D Tesla Car Game
 
 ## Preview
 ![alt text](https://raw.githubusercontent.com/arwildo/tesla-game/master/img/game-preview.png "Tesla Car Game")
